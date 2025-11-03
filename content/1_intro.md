@@ -27,3 +27,50 @@ Once you start building JB2 books, it is likely you will get hooked!
 For instance, try changing this cell in the browser and see its output!
 ```
 :::
+``` {figure} figures/csuf-campus-scene.jpg
+:width: 50%
+:name: fig_myfirstfigure
+add file in the folder
+```
+
+```{iframe} https://youtu.be/cB2BofgejPQ?si=W8QbA7JmNtqqjSLC
+:width: 80%
+
+Purves et al. - Jupyter Book 2 0 – A Next Generation tool for sharing for Computational Content
+```
+
+``` python
+print("Hello world!")
+```
+
+``` python
+# comment
+def fib(n):
+    if n < 0:
+        return
+    if n in [0, 1]:
+        return n
+    else:
+        return fib(n-2) + fib(n-1)
+```
+
+
+```{mermaid}
+flowchart LR
+  Start --> Stop
+
+  A1(["Novice"]) --> B1
+  A2(["I do know"]) --> B2 & B1
+  B1(["Expert"])
+  B2(["try"])
+
+  A(["Start"]) --> B{"Decision"}
+  B --> C["Option A"] & D["Option B"]
+```
+
+```{warning} 🌶 HOTHOTHOT
+:icon: false
+:class: dropdown
+
+This is a custom warning admonition with a custom icon, try changing it!
+```
