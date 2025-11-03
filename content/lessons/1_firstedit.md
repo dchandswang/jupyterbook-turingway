@@ -4,11 +4,11 @@ numbering:
     offset: 0
 ---
 (fundamentals)=
-# Jupyter Book Fundamentals
+# Jupyter Book Fundamentals Title
 
 ## Anatomy of a Jupyter Book
 
-A Jupyter Book is a collection of files and folders that together make up the content and structure of your book.
+Tutorial A Jupyter Book is a collection of files and folders that together make up the content and structure of your book.
 Jupyter Book 2 (JB2) supports both [Markdown](https://en.wikipedia.org/wiki/Markdown) files and [Jupyter Notebooks](https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook) as content sources. 
 The structure of the book is specified in the `myst.yml` file, which is located in the root directory of your book.
 This file contains information about the title, author, and other metadata of the book, as well as documents and its structure to build the book itself.
