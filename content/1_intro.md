@@ -17,6 +17,8 @@ As this document serves both as a template _and_ a guide, it has the following s
 2. A tutorial with several steps to introduce you to editing and building your own book.
 3. Additional resources, for example, [Advanced Start instructions](./advanced_start.md) and [Software](./software.md).
 
+This is an external reference to The Turing Way -> [](xref:th-turing-way)
+
 ```{note}
 The template and its content are not meant as a replacement of the documentation already available on the [Jupyter Book 2 website](https://next.jupyterbook.org/) and the [MyST website](https://mystmd.org/guide). It is designed to support new users of Jupyter Book 2 and MystMD, in particular for use in workshop settings where participants may not have time or ability to install the required software on a personal computer.
 ```
@@ -74,3 +76,23 @@ flowchart LR
 
 This is a custom warning admonition with a custom icon, try changing it!
 ```
+:::: {tab-set}
+::: {tab-item} Tab 1
+Content for Tab 1
+:::
+::: {tab-item} Tab 2
+Content for Tab 2
+:::
+::::
+
+:::: {tab-set}
+::: {tab-item} pip
+pip install mystmd
+:::
+::: {tab-item} npm
+npm install -g mystmd
+:::
+::::
+
+:::{embed} label
+:::
